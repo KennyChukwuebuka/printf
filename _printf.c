@@ -1,5 +1,8 @@
 #include "main.h"
 /**
+ * _printf - function printf
+ * @format: params
+ * Return: value
  */
 int _printf(const char *format, ...)
 {
