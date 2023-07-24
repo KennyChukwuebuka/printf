@@ -1,6 +1,11 @@
 #include "main.h"
 
 /**
+ * _printstr - Prints a string.
+ * @format: The format string (unused).
+ * @param: A list of arguments containing the string to print.
+ *
+ * Return: The number of characters printed.
  */
 
 int _printstr(char *format, va_list param)

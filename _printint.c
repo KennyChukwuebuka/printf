@@ -1,5 +1,9 @@
 #include "main.h"
 /**
+ * _abs - Computes the absolute value of an integer.
+ * @num: The integer to compute the absolute value of.
+ *
+ * Return: The absolute value of the integer.
  */
 int _abs(int num)
 {
@@ -10,6 +14,10 @@ int _abs(int num)
 }
 
 /**
+ * countdigit - Counts the number of digits in an integer.
+ * @num: The integer to count the digits of.
+ *
+ * Return: The number of digits in the integer.
  */
 int countdigit(int num)
 {
@@ -18,7 +26,7 @@ int countdigit(int num)
 
 	if (num <= 0)
 		c += 1;
-	
+
 	while (_abs(num2) != 0)
 	{
 		num2 = num2 / 10;
@@ -27,6 +35,10 @@ int countdigit(int num)
 	return (c);
 }
 /**
+ * integer - Prints an integer.
+ * @num: The integer to print.
+ *
+ * Return: The number of digits in the integer.
  */
 int integer(int num)
 {
@@ -56,6 +68,11 @@ int integer(int num)
 		return (c);
 }
 /**
+ * printint - takes age input from the user
+ * @format: first arguments
+ * @param: second argument
+ *
+ * Return: 0
  */
 int printint(char *format, va_list param)
 {

@@ -1,6 +1,11 @@
 #include "main.h"
 
 /**
+ * _printocta - Prints the octal representation of an unsigned integer.*
+ * @format: The format string (unused).
+ * @param: A list of arguments containing the unsigned integer to print.
+ *
+ * Return: The number of characters printed.
  */
 int _printocta(char *format, va_list param)
 {
