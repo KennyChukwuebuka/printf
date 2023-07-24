@@ -1,5 +1,5 @@
 0x11. C - printf
-team project done by Chukwuebuka & Nonkululeko
+team project done by Chukwuebuka and Nonkululeko
 
 This is a C programming project that implements the printf function. It handles the following conversion specifiers: d, i, u, o, x, X, p, and custom conversion specifiers. It also handles the following flag characters, length modifiers, field width, precision, and the 0 and - flag characters.
 
