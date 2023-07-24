@@ -1,6 +1,13 @@
 #include "main.h"
 /**
-*/
+ * _printhex - Converts an unsigned integer
+ * to a hexadecimal string and prints it.
+ * @format: The format string (unused).
+ * @param: A list of arguments
+ *
+ * Return: The number of characters printed.
+ */
+
 int _printhex(char *format, va_list param)
 {
 	unsigned int number = va_arg(param, unsigned int);
@@ -32,7 +39,12 @@ int _printhex(char *format, va_list param)
 	return (count);
 }
 /**
-*/
+ * _printHEX - function that print HEX
+ * @format: param
+ * @pa: param A
+ * Return: value
+ */
+
 int _printHEX(char *format, va_list pa)
 {
 	unsigned int NUMBERHEX = va_arg(pa, unsigned int);

@@ -4,7 +4,6 @@
  * @format: param
  * Return: num of char
  */
-
 int _printf(const char *format, ...)
 {
 	int i = 0, (*type_struct)(char *, va_list);
@@ -16,7 +15,6 @@ int _printf(const char *format, ...)
 	s[2] = '\0';
 	va_start(param, format);
 	_putchar(-1);
-
 	while (format[0])
 	{
 		if (format[0] == '%')
