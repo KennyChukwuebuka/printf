@@ -9,4 +9,4 @@ The printf function is a standard C library function that outputs formatted data
 
 The printf function takes a format string and a variable number of arguments. The format string contains text and conversion specifiers. The conversion specifiers tell the printf function how to format the data in the arguments.
 
-The project is divided into two files: printf.c and printf.h. The printf.c file contains the implementation of the printf function. The printf.h file contains the declaration of the printf function.
+The project is divided into two files: printf.c and main.h. The printf.c file contains the implementation of the printf function. The printf.h file contains the declaration of the printf function.
