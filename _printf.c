@@ -12,7 +12,6 @@ int _printf(const char *format, ...)
 
 	if (format == NULL)
 		return (-1);
-	s[2] = '\0';
 	va_start(param, format);
 	_putchar(-1);
 	while (format[0])
@@ -45,5 +44,6 @@ int _printf(const char *format, ...)
 		}
 	}
 	_putchar(-2);
+	va_end(param);
 	return (i);
 }
