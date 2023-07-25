@@ -35,7 +35,11 @@ int main(void)
 	_printf("Address:[%p]\n", addr);
 	printf("Address:[%p]\n", addr);
 	len = _printf("Percent:[%%]\n");
+	len = _printf("Percent:[%d]\n", len);
+	len = printf("Percent:[%d]\n", len);
 	len2 = printf("Percent:[%%]\n");
+	len2 = _printf("Percent:[%d]\n", len2);
+	len2 = printf("Percent:[%d]\n", len2);
 	_printf("Len:[%d]\n", len);
 	printf("Len:[%d]\n", len2);
 	_printf("Unknown:[%r]\n");
