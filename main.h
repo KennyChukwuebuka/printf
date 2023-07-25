@@ -4,7 +4,6 @@
 #include <stdarg.h>
 #include <stdlib.h>
 #include <stddef.h>
-#include <stdio.h>
 
 typedef struct structype
 {
