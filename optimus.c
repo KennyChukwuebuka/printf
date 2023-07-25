@@ -15,13 +15,13 @@ int (*optimus(const char *format))(char *format, va_list)
 		{"%c", _printc},
 		{"%s", _printstr},
 		{"%%", printpercentsign},
+		{"%u", unsigned_int},
 		{"%d", printint},
 		{"%i", printint},
 		{"%o", _printocta},
 		{"%x", _printhex},
 		{"%X", _printHEX},
 		{"%p", _printpointer},
-		{"%u", unsigned_int},
 		{NULL, NULL}
 	};
 	if (format[1] == ' ' || format[1] == '\0')
