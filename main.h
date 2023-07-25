@@ -26,5 +26,7 @@ int _printocta(char *format, va_list param);
 int _printhex(char *format, va_list param);
 int _printHEX(char *format, va_list param);
 int _printpointer(char *format, va_list args);
+int unsigned_int(char *format, va_list param);
+int print_unsigned_int(unsigned int num);
 
 #endif /*main.h*/

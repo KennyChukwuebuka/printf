@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 /**
  * printpercentsign - Writes a percent sign to the standard output.
  * @format: A pointer to a character string that contains
