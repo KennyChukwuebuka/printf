@@ -25,5 +25,6 @@ int _abs(int num);
 int _printocta(char *format, va_list param);
 int _printhex(char *format, va_list param);
 int _printHEX(char *format, va_list param);
+int _printpointer(char *format, va_list args);
 
 #endif /*main.h*/

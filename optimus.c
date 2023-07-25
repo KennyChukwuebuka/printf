@@ -20,6 +20,7 @@ int (*optimus(const char *format))(char *format, va_list)
 		{"%o", _printocta},
 		{"%x", _printhex},
 		{"%X", _printHEX},
+		{"%p", _printpointer},
 		{NULL, NULL}
 	};
 	if (format[1] == ' ' || format[1] == '\0')
