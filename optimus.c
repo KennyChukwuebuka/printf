@@ -15,7 +15,7 @@ int (*optimus(const char *format))(char *format, va_list)
 		{"%c", _printc},
 		{"%s", _printstr},
 		{"%%", printpercentsign},
-		{"%u", unsigned_int},
+		/*{"%u", unsigned_int},*/
 		{"%d", printint},
 		{"%i", printint},
 		{"%o", _printocta},
