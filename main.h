@@ -28,5 +28,8 @@ int _printHEX(char *format, va_list param);
 int _printpointer(char *format, va_list args);
 int unsigned_int(char *format, va_list param);
 int print_unsigned_int(unsigned int num);
+int _printtstr(char *format, va_list param);
+int binary(char *format, va_list params);
+int print_binary(unsigned int numbas);
 
 #endif /*main.h*/
