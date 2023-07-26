@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_binary - function
- * @numbas: params
+ * @number: params
  * Return: binary
  */
 int print_binary(unsigned int number)
